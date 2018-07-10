@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:700|Palanquin:700|Raleway:700,800,900');
+
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Palanquin', sans-serif;
+*/
+
+body {
+        background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+#wrapper {
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+canvas {
+    display: none;
+}
+
+h1 {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.left {
+    width: 50%;
+    float: left;
+    display: block;
+}
+
+.right {
+    width: 50%;
+    float: right;
+    margin: auto;;
+    display: block;
+}
+
+.copyright {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    color: #ededed;
+    margin-top: 80px;
+}
+
+.genre {
+    width: 32%;
+    height: auto;
+}
+
+#personal_info {
+    text-align: center;
+    width: 100%;
+}
+
+#bootup {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+}
