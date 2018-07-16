@@ -5,10 +5,10 @@
   "description": "A desktop application for students who attend The New School.",
   "main": "main.js",
   "scripts": {
-    "build": "electron-packager . tns-dashboard",
-    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=images/icons/mac/icon.icns --prune=true --out=release-builds",
-    "package-win": "electron-packager . tns-dashboard --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\"",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . tns-dashboard --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"The New Dashboard\"",
     "package-linux": "electron-packager . tns-dashboard --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release-builds",
+    "build": "electron-packager . tns-dashboard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

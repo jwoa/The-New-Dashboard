@@ -9,10 +9,15 @@ function createWindow() {
       titleBarStyle: 'hidden',
       width: 800,
       height: 600,
-      icon: path.join(__dirname, 'assets/icons/png/64x64.png')
+      icon: path.join(__dirname, 'assets/icons/png/64x64.png'),
+      backgroundColor: '#E7362E',
+      show: false
   });
   win.loadURL(`file:///${__dirname}/index.html`);
-  require('./menu/mainmenu');
+  require('./assets/menu/mainmenu');
+  win.once('ready-to-show', () => {
+     win.show()
+  })
 }
 
 app.on('ready', createWindow);

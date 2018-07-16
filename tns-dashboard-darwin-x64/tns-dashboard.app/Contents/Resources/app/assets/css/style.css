@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|Palanquin:700|Raleway:700,800,900');
+
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Palanquin', sans-serif;
+*/
+
+
+body {
+    background-color: #fff;
+    -ms-overflow-style: scrollbar;
+    -webkit-app-region:drag;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    -webkit-user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+canvas {
+    display: none;
+}
+
+h1 {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/*********************/
+/* LOGIN PAGE
+/*********************/
+
+h3 {
+    font-family: 'Palanquin', sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+#login_left {
+    width: 40%;
+    float: left;
+    display: block;
+    padding-top: 20%;
+    margin: auto;
+    box-sizing:border-box;
+}
+
+#login_right {
+    background-image: url(../images/login_background2.jpg);
+    background-size: cover;
+/*    background-color: #e7362e;*/
+    width: 60%;
+    height: 100vh;
+    float: right;
+    margin: auto;
+    display: block;
+    box-sizing:border-box;
+}
+
+.login_padding {
+    padding-left: 40px;
+}
+
+input {
+    border: none;
+}
+
+input[type="text"] {
+    border-bottom: 1px solid;
+    color: #dbdbdb;
+}
+
+input[type="submit"] {
+    background-color: #E7362E;
+    color: #FFF;
+    border-radius: 15px;
+    padding: 10px 30px 10px 30px;
+}
+
+.sign_up {
+    font-size: 0.65em;
+    padding-top: 20px;
+    color: #0D0D0D;
+    font-family: 'PT Sans', sans-serif;
+    opacity: 0.6;
+    font-weight: 400;
+}
+
+/*********************/
+/* END LOGIN PAGE
+/*********************/
+
+.copyright {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    color: #ededed;
+    margin-top: 80px;
+}
+
+.genre {
+    width: 32%;
+    height: auto;
+}
+
+#personal_info {
+    text-align: center;
+    width: 100%;
+}
+
+#bootup {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+}
